@@ -120,3 +120,20 @@ button {
 button:hover {  
     background-color: #ff9900;  
 }
+
+.botao-link {
+    display: inline-block;  /* Faz o link se comportar como um botão */
+    padding: 10px 20px;     /* Adiciona espaçamento ao redor do texto */
+    background-color: #ffcc00;  /* Cor de fundo do botão */
+    color: #333;  /* Cor do texto */
+    text-decoration: none;  /* Remove o sublinhado do link */
+    border-radius: 5px;  /* Arredonda os cantos */
+    font-weight: bold;  /* Deixa o texto em negrito */
+    text-transform: uppercase;  /* Deixa o texto em maiúsculas */
+    letter-spacing: 1px;  /* Adiciona espaçamento entre as letras */
+    transition: background-color 0.3s;  /* Transição suave para mudança de cor */
+}
+
+.botao-link:hover {
+    background-color: #ff9900;  /* Cor de fundo ao passar o mouse */
+}
